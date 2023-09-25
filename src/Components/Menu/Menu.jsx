@@ -1,4 +1,4 @@
-import {NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Menu = () => {
   return (
@@ -9,9 +9,42 @@ const Menu = () => {
         </div>
         <div className="flex-none">
           <ul className="menu menu-horizontal px-1 gap-5">
-            <NavLink to="/">Home</NavLink>
-            <NavLink to="/donation">Donation</NavLink>
-            <NavLink to="/statistics">Statistics</NavLink>
+            <NavLink
+              to="/"
+              className={({ isActive, isPending }) =>
+                isPending
+                  ? "pending"
+                  : isActive
+                  ? "text-[#FF444A] underline"
+                  : ""
+              }
+            >
+              Home
+            </NavLink>
+            <NavLink
+              to="/donation"
+              className={({ isActive, isPending }) =>
+                isPending
+                  ? "pending"
+                  : isActive
+                  ? "text-[#FF444A] underline"
+                  : ""
+              }
+            >
+              Donation
+            </NavLink>
+            <NavLink
+              to="/statistics"
+              className={({ isActive, isPending }) =>
+                isPending
+                  ? "pending"
+                  : isActive
+                  ? "text-[#FF444A] underline"
+                  : ""
+              }
+            >
+              Statistics
+            </NavLink>
           </ul>
         </div>
       </div>
