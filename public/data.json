@@ -1,6 +1,6 @@
 [
   {
-    "id": 1,
+    "id": "1",
     "img": "https://i.ibb.co/s3M7dK1/1.png",
     "title": "Medical Supplies for Children",
     "category": "Health",
@@ -8,11 +8,11 @@
     "card_BG_color": "#0052ff26",
     "text_color": "#0052FF",
     "btn_color": "#0052FF",
-    "description": "Help provide essential medical supplies to children in need.",
-    "price": "$50"
+    "Description": "Your contribution will go a long way in ensuring that children in underprivileged communities have access to essential medical supplies. These supplies include medicines, bandages, and first aid kits. By donating, you help us provide a healthier future for these children who deserve every opportunity to thrive. Make a difference today for a brighter tomorrow. Thank you for your support!",
+    "Price": "$50"
   },
   {
-    "id": 2,
+    "id": "2",
     "img": "https://i.ibb.co/HC2NkWY/2.jpg",
     "title": "School Books and Supplies",
     "category": "Education",
@@ -20,11 +20,11 @@
     "card_BG_color": "#ff444a26",
     "text_color": "#FF444A",
     "btn_color": "#FF444A",
-    "description": "Support education by donating school books and supplies to underprivileged students.",
-    "price": "$30"
+    "Description": "Education is the key to unlocking a brighter future. Your donation will help us provide school books and supplies to underprivileged students who are eager to learn but lack the resources they need. By contributing, you empower these students to pursue their dreams and break the cycle of poverty. Join us in making education accessible to all. Your generosity is truly appreciated!",
+    "Price": "$30"
   },
   {
-    "id": 3,
+    "id": "3",
     "img": "https://i.ibb.co/bWWdLBS/3.png",
     "title": "Nutritious Meals for the Homeless",
     "category": "Food",
@@ -32,11 +32,11 @@
     "card_BG_color": "#f8714733",
     "text_color": "#F87147",
     "btn_color": "#F87147",
-    "description": "Contribute to providing hot, nutritious meals to homeless individuals.",
-    "price": "$20"
+    "Description": "No one should go to bed hungry. Your donation helps us provide hot, nutritious meals to homeless individuals who often struggle to find their next meal. By supporting our food program, you make a direct impact on the lives of those in need. Join us in the fight against hunger and homelessness. Your kindness is the nourishment they seek.",
+    "Price": "$20"
   },
   {
-    "id": 4,
+    "id": "4",
     "img": "https://i.ibb.co/kJn4bTr/4.png",
     "title": "Warm Winter Clothing Drive",
     "category": "Clothing",
@@ -44,11 +44,11 @@
     "card_BG_color": "#79c23f26",
     "text_color": "#79C23F",
     "btn_color": "#79C23F",
-    "description": "Help keep those in need warm by donating winter clothing items.",
-    "price": "$40"
+    "Description": "Winter can be brutal, especially for those without warm clothing. Your donation will help us keep those in need warm by providing winter clothing items such as coats, hats, and gloves. With your support, we can ensure that everyone stays comfortable and safe during the cold season. Join us in spreading warmth and compassion. Your generosity makes a world of difference!",
+    "Price": "$40"
   },
   {
-    "id": 5,
+    "id": "5",
     "img": "https://i.ibb.co/k8zzdfJ/5.jpg",
     "title": "Medical Outreach Program",
     "category": "Health",
@@ -56,11 +56,11 @@
     "card_BG_color": "#0052ff26",
     "text_color": "#0052FF",
     "btn_color": "#0052FF",
-    "description": "Support our mobile medical clinic to reach remote communities.",
-    "price": "$60"
+    "Description": "Our mobile medical clinic reaches remote communities where access to healthcare is limited. Your donation supports this vital outreach program, providing medical check-ups, vaccinations, and health education. By contributing, you help save lives and improve the health of those in underserved areas. Join us in making healthcare accessible to all. Your compassion matters!",
+    "Price": "$60"
   },
   {
-    "id": 6,
+    "id": "6",
     "img": "https://i.ibb.co/1GbZgYn/6.png",
     "title": "Scholarships for Poor Students",
     "category": "Education",
@@ -68,11 +68,11 @@
     "card_BG_color": "#ff444a26",
     "text_color": "#FF444A",
     "btn_color": "#FF444A",
-    "description": "Empower deserving students with educational scholarships.",
-    "price": "$50"
+    "Description": "Every child deserves a chance to pursue their dreams through education. Your donation funds scholarships for underprivileged students, giving them the opportunity to access quality education. By contributing, you empower these students to break the cycle of poverty and reach their full potential. Join us in creating a brighter future for all. Your support changes lives!",
+    "Price": "$50"
   },
   {
-    "id": 7,
+    "id": "7",
     "img": "https://i.ibb.co/7Nx35hF/7.png",
     "title": "Food Pantry Expansion",
     "category": "Food",
@@ -80,11 +80,11 @@
     "card_BG_color": "#f8714726",
     "text_color": "#F87147",
     "btn_color": "#F87147",
-    "description": "Help us expand our food pantry to serve more families in need.",
-    "price": "$25"
+    "Description": "Our food pantry is a lifeline for families in need. Your donation helps us expand this essential service, providing more meals to those who struggle to put food on the table. By supporting our pantry expansion, you make a real difference in the fight against hunger. Join us in ensuring that no one goes to bed hungry. Your kindness is a source of hope!",
+    "Price": "$25"
   },
   {
-    "id": 8,
+    "id": "8",
     "img": "https://i.ibb.co/pLNV5Vt/8.jpg",
     "title": "Back-to-School Clothing Drive",
     "category": "Clothing",
@@ -92,11 +92,11 @@
     "card_BG_color": "#79c23f26",
     "text_color": "#79C23F",
     "btn_color": "#79C23F",
-    "description": "Ensure that children have the clothing they need for school.",
-    "price": "$35"
+    "Description": "Going back to school should be an exciting time for every child. Your donation supports our clothing drive, ensuring that children have the clothing they need for school. By contributing, you boost their confidence and readiness for learning. Join us in making a positive impact on children's education. Your generosity helps them succeed!",
+    "Price": "$35"
   },
   {
-    "id": 9,
+    "id": "9",
     "img": "https://i.ibb.co/rMMCJm1/9.jpg",
     "title": "Community Health Workshops",
     "category": "Health",
@@ -104,11 +104,11 @@
     "card_BG_color": "#0052ff26",
     "text_color": "#0052FF",
     "btn_color": "#0052FF",
-    "description": "Support informative health workshops for the community.",
-    "price": "$20"
+    "Description": "Prevention is key to a healthier community. Your donation supports informative health workshops that educate the community about health issues and disease prevention. By contributing, you empower individuals to take control of their health and well-being. Join us in promoting a healthier future for all. Your support is a step towards a healthier community!",
+    "Price": "$20"
   },
   {
-    "id": 10,
+    "id": "10",
     "img": "https://i.ibb.co/S57Rs1B/10.jpg",
     "title": "Computer Lab for Schools",
     "category": "Education",
@@ -116,11 +116,11 @@
     "card_BG_color": "#ff444a26",
     "text_color": "#FF444A",
     "btn_color": "#FF444A",
-    "description": "Equip schools with computer labs to enhance learning opportunities.",
-    "price": "$45"
+    "Description": "Equip schools with state-of-the-art computer labs to enhance learning opportunities for students. Your support will provide access to technology and digital skills that are crucial in today's world. Join us in preparing students for a bright and technology-driven future!",
+    "Price": "$45"
   },
   {
-    "id": 11,
+    "id": "11",
     "img": "https://i.ibb.co/9WCXDpY/11.webp",
     "title": "Meals for Elderly Citizens",
     "category": "Food",
@@ -128,11 +128,11 @@
     "card_BG_color": "#f8714726",
     "text_color": "#F87147",
     "btn_color": "#F87147",
-    "description": "Provide regular meals to elderly citizens who may be isolated.",
-    "price": "$15"
+    "Description": "Make a difference in the lives of elderly citizens by providing regular, nutritious meals to those who may be isolated or facing food insecurity. Your donation will help us create meal programs that address the unique dietary needs of seniors. Join us in ensuring that our elderly community members are well-nourished and cared for.",
+    "Price": "$15"
   },
   {
-    "id": 12,
+    "id": "12",
     "img": "https://i.ibb.co/cF6SMc8/12.png",
     "title": "Winter Coats for Kids",
     "category": "Clothing",
@@ -140,7 +140,7 @@
     "card_BG_color": "#79c23f26",
     "text_color": "#79C23F",
     "btn_color": "#79C23F",
-    "description": "Ensure that children have warm winter coats during the cold season.",
-    "price": "$30"
+    "Description": "Help children stay warm during the cold winter months by contributing to our winter coat drive. Your donation will provide cozy winter coats to kids in need, ensuring that they are protected from the harsh weather. Join us in spreading warmth, comfort, and happiness to children during the chilly season!",
+    "Price": "$30"
   }
 ]

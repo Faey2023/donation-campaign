@@ -4,8 +4,12 @@ import Menu from "../Menu/Menu";
 const Root = () => {
   return (
     <div>
-      <Menu></Menu>
-      <Outlet></Outlet>
+      <div>
+        <Menu></Menu>
+      </div>
+      <div>
+        <Outlet></Outlet>
+      </div>
     </div>
   );
 };
