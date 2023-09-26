@@ -1,6 +1,7 @@
 import PropTypes from "prop-types";
+import swal from "sweetalert";
 const DetailPage = ({ card }) => {
-  const { id, img, title, Price, btn_color, Description } = card || {};
+  const { img, title, Price, btn_color, Description } = card || {};
   // button
   const handleDonate = () => {
     // alert("okkk kaj kore");
@@ -9,14 +10,11 @@ const DetailPage = ({ card }) => {
     if (!donateMoney) {
       donateArray.push(donateMoney);
       localStorage.setItem("donation", JSON.stringify(donateArray));
+      swal("Good job!", "Thank you for the Donation", "success");
     } else {
-      const isExist = donateMoney.find((card) => card.id == id);
-      if (!isExist) {
-        donateArray.push(...donateMoney, card);
-        localStorage.setItem("donation", JSON.stringify(donateArray));
-      } else {
-        alert("Already Exist");
-      }
+      donateArray.push(...donateMoney, card);
+      localStorage.setItem("donation", JSON.stringify(donateArray));
+      swal("Good job!", "Thank you for the Donation", "success");
     }
   };
   return (
