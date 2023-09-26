@@ -9,7 +9,7 @@ const Cards = () => {
       .then((data) => setCards(data));
   }, []);
   return (
-    <div className="container mx-auto grid grid-cols-2 md:grid-cols-4 gap-5">
+    <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
       {cards.map((card) => (
         <Card key={card.id} card={card}></Card>
       ))}

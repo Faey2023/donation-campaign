@@ -1,14 +1,34 @@
+import PropTypes from "prop-types";
 const DetailPage = ({ card }) => {
-  const { img, title, Price, btn_color, Description } = card || {};
+  const { id, img, title, Price, btn_color, Description } = card || {};
+  // button
+  const handleDonate = () => {
+    // alert("okkk kaj kore");
+    const donateArray = [];
+    const donateMoney = JSON.parse(localStorage.getItem("donation"));
+    if (!donateMoney) {
+      donateArray.push(donateMoney);
+      localStorage.setItem("donation", JSON.stringify(donateArray));
+    } else {
+      const isExist = donateMoney.find((card) => card.id == id);
+      if (!isExist) {
+        donateArray.push(...donateMoney, card);
+        localStorage.setItem("donation", JSON.stringify(donateArray));
+      } else {
+        alert("Already Exist");
+      }
+    }
+  };
   return (
     <div className="container mx-auto my-5">
       <div>
-        <img src={img} alt={title} />
+        <img className="w-screen h-[70vh]" src={img} alt={title} />
       </div>
       <div className="relative -mt-20 bg-[#0b0b0b80]">
         <button
           className="btn text-white ml-5"
           style={{ backgroundColor: btn_color, padding: "16px 26px" }}
+          onClick={handleDonate}
         >
           Donate: $ {Price}
         </button>
@@ -20,5 +40,7 @@ const DetailPage = ({ card }) => {
     </div>
   );
 };
-
+DetailPage.propTypes = {
+  card: PropTypes.array,
+};
 export default DetailPage;
