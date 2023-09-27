@@ -5,9 +5,6 @@ const Donation = () => {
   const [donate, setDonate] = useState([]);
   const [noMoney, setNoMoney] = useState("");
   const [show, setShow] = useState(false);
-  const handleAll = () => {
-    alert("kaj kore");
-  };
   useEffect(() => {
     const donateMoney = JSON.parse(localStorage.getItem("donation"));
     if (donateMoney) {

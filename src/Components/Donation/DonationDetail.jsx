@@ -1,6 +1,5 @@
 const DonationDetail = ({ card }) => {
   const {
-    id,
     img,
     title,
     Price,
