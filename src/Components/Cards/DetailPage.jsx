@@ -4,11 +4,10 @@ const DetailPage = ({ card }) => {
   const { img, title, Price, btn_color, Description } = card || {};
   // button
   const handleDonate = () => {
-    // alert("okkk kaj kore");
-    const donateArray = [];
     const donateMoney = JSON.parse(localStorage.getItem("donation"));
+    const donateArray = [];
     if (!donateMoney) {
-      donateArray.push(donateMoney);
+      donateArray.push(card);
       localStorage.setItem("donation", JSON.stringify(donateArray));
       swal("Good job!", "Thank you for the Donation", "success");
     } else {
@@ -39,6 +38,6 @@ const DetailPage = ({ card }) => {
   );
 };
 DetailPage.propTypes = {
-  card: PropTypes.array,
+  card: PropTypes.object,
 };
 export default DetailPage;

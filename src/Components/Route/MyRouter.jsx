@@ -4,6 +4,7 @@ import Donation from "../Donation/Donation";
 import Statistics from "../Statistics/Statistics";
 import Root from "../Root/Root";
 import CardDetail from "../Cards/CardDetail";
+// import Banner from "../Banner/Banner";
 
 const MyRouter = createBrowserRouter([
   {
@@ -13,11 +14,17 @@ const MyRouter = createBrowserRouter([
       {
         path: "/",
         element: <Home></Home>,
+        loader: () => fetch("/data.json"),
       },
+      // {
+      //   path: "/",
+      //   element: <Banner></Banner>,
+      //   loader: () => fetch("/public/data.json"),
+      // },
       {
         path: "/card/:id",
         element: <CardDetail></CardDetail>,
-        loader: () => fetch("/public/data.json"),
+        loader: () => fetch("/data.json"),
       },
       {
         path: "/donation",

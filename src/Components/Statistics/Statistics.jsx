@@ -1,7 +1,8 @@
+
 const Statistics = () => {
     return (
         <div>
-           This is stats 
+           <h1>Pie Chart</h1>
         </div>
     );
 };
