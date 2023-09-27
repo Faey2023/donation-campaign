@@ -1,5 +1,5 @@
 // import Banner from "../Banner/Banner";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import Cards from "../Cards/Cards";
 import { useLoaderData } from "react-router-dom";
 
@@ -11,7 +11,7 @@ const Home = () => {
   const handleSearch = (e) => {
     const search = document.getElementById("search-input").value;
     if (search.length) {
-      const finalData = allDatas?.filter((item) => item.category == search);
+      const finalData = allDatas?.filter((item) => item.category.toLowerCase() == search.toLowerCase());
       if (finalData) {
         setSearchDatas(finalData);
       }
@@ -23,8 +23,6 @@ const Home = () => {
   };
   return (
     <div className="space-y-12">
-      {/* <Banner></Banner> */}
-      {/* banner */}
       <div
         className="hero min-h-[calc(100vh-300px)] "
         style={{
@@ -58,22 +56,4 @@ const Home = () => {
 };
 
 export default Home;
-// useEffect(() => {
-//   fetch("/public/data.json")
-//     .then((res) => res.json())
-//     .then((data) => setDatas(data));
-// }, []);
-// console.log(datas);
-// const [searchCategories, setSearchCategories] = useState(datas);
 
-//button
-// if (search.length) {
-//   const campaignFilter = datas?.filter(
-//     (campaign) => campaign?.category.toLowerCase() === search.toLowerCase()
-//   );
-//   if (campaignFilter) {
-//     setSearchCategories(campaignFilter);
-//   } else {
-//     setSearchCategories(datas);
-//   }
-// }

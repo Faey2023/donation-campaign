@@ -1,4 +1,5 @@
-import { useEffect, useState } from "react";
+import PropTypes from "prop-types";
+
 import Card from "./Card";
 
 const Cards = ({cards}) => {
@@ -16,5 +17,7 @@ const Cards = ({cards}) => {
     </div>
   );
 };
-
+Cards.propTypes = {
+  cards: PropTypes.object,
+};
 export default Cards;
