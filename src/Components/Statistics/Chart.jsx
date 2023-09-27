@@ -61,7 +61,7 @@ const Chart = ({ chart }) => {
             cy="50%"
             labelLine={false}
             label={renderCustomizedLabel}
-            outerRadius={165}
+            outerRadius={150}
             fill="#8884d8"
             dataKey="value"
           >
